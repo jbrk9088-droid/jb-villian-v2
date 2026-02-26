@@ -1,0 +1,13 @@
+{
+  "name": "jb-villian-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.0",
+    "express": "^4.18.2"
+  }
+}
