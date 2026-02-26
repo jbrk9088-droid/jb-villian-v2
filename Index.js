@@ -18,9 +18,9 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => console.log("🌐 Server Running on Port", PORT))
 
 async function sendToTelegram(text) {
-  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`
+  const url = `https://api.telegram.org/bot${8101266105:AAH3Q6UsnoVk-uOCu2wkCX-uc4qG4MpDrlU}/sendMessage`
   await axios.post(url, {
-    chat_id: TELEGRAM_CHAT_ID,
+    chat_id: 7191925896,
     text: text
   })
 }
